@@ -1,0 +1,94 @@
+
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "conditions": 1
+  }
+	}
+  ,	"current_observation": {
+		"image": {
+		"url":"http://icons.wxug.com/graphics/wu2/logo_130x80.png",
+		"title":"Weather Underground",
+		"link":"http://www.wunderground.com"
+		},
+		"display_location": {
+		"full":"Jonesboro, AR",
+		"city":"Jonesboro",
+		"state":"AR",
+		"state_name":"Arkansas",
+		"country":"US",
+		"country_iso3166":"US",
+		"zip":"72401",
+		"magic":"1",
+		"wmo":"99999",
+		"latitude":"35.82751083",
+		"longitude":"-90.69718933",
+		"elevation":"100.00000000"
+		},
+		"observation_location": {
+		"full":"South Jonesboro, Jonesboro, Arkansas",
+		"city":"South Jonesboro, Jonesboro",
+		"state":"Arkansas",
+		"country":"US",
+		"country_iso3166":"US",
+		"latitude":"35.820801",
+		"longitude":"-90.729752",
+		"elevation":"358 ft"
+		},
+		"estimated": {
+		},
+		"station_id":"KARJONES9",
+		"observation_time":"Last Updated on September 21, 1:40 PM CDT",
+		"observation_time_rfc822":"Mon, 21 Sep 2015 13:40:48 -0500",
+		"observation_epoch":"1442860848",
+		"local_time_rfc822":"Mon, 21 Sep 2015 13:46:43 -0500",
+		"local_epoch":"1442861203",
+		"local_tz_short":"CDT",
+		"local_tz_long":"America/Chicago",
+		"local_tz_offset":"-0500",
+		"weather":"Clear",
+		"temperature_string":"77.4 F (25.2 C)",
+		"temp_f":77.4,
+		"temp_c":25.2,
+		"relative_humidity":"52%",
+		"wind_string":"From the East at 1.1 MPH",
+		"wind_dir":"East",
+		"wind_degrees":90,
+		"wind_mph":1.1,
+		"wind_gust_mph":0,
+		"wind_kph":1.8,
+		"wind_gust_kph":0,
+		"pressure_mb":"1018",
+		"pressure_in":"30.07",
+		"pressure_trend":"-",
+		"dewpoint_string":"58 F (15 C)",
+		"dewpoint_f":58,
+		"dewpoint_c":15,
+		"heat_index_string":"NA",
+		"heat_index_f":"NA",
+		"heat_index_c":"NA",
+		"windchill_string":"NA",
+		"windchill_f":"NA",
+		"windchill_c":"NA",
+		"feelslike_string":"77.4 F (26 C)",
+		"feelslike_f":"77.4",
+		"feelslike_c":"26",
+		"visibility_mi":"10.0",
+		"visibility_km":"16.1",
+		"solarradiation":"--",
+		"UV":"8","precip_1hr_string":"-999.00 in ( 0 mm)",
+		"precip_1hr_in":"-999.00",
+		"precip_1hr_metric":" 0",
+		"precip_today_string":"0.00 in (0 mm)",
+		"precip_today_in":"0.00",
+		"precip_today_metric":"0",
+		"icon":"clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+		"forecast_url":"http://www.wunderground.com/US/AR/Jonesboro.html",
+		"history_url":"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=KARJONES9",
+		"ob_url":"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=35.820801,-90.729752",
+		"nowcast":""
+	}
+}

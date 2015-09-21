@@ -128,4 +128,8 @@ class ConditionsTest < Minitest::Test
   def test_sunrise_time
     assert_equal "649", Astronomy.new("72401").sunrise
   end
+
+  def test_sunrise_time
+    assert_equal "1901", Astronomy.new("72401").sunset
+  end
 end

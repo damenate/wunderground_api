@@ -14,5 +14,10 @@ api2 = Forecast.new(zip)
 puts api2.get_response
 
 puts "Enter your zip for the sunrise and sunset:"
-api3 = Suntime.new(zip)
+api3 = Astronomy.new(zip)
 puts api3.get_response
+
+
+puts "Enter your zip for weather alerts:"
+api4 = Alerts.new(zip)
+puts api4.get_response

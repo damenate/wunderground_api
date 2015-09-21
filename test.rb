@@ -3,6 +3,8 @@ require 'minitest/pride'
 require './conditions'
 require './forecast'
 require './astronomy'
+require './alerts'
+require './hurricane'
 require 'json'
 
 
@@ -23,6 +25,20 @@ end
 class Astronomy
   private def get_response
     file = File.read('72401sun.json')
+    data_hash = JSON.parse(file)
+  end
+end
+
+class Alerts
+  private def get_response
+    file = File.read('85701alerts.json')
+    data_hash = JSON.parse(file)
+  end
+end
+
+class Hurrican
+  private def get_response
+    file = File.read('hurricane.json')
     data_hash = JSON.parse(file)
   end
 end
@@ -131,5 +147,13 @@ class ConditionsTest < Minitest::Test
 
   def test_sunrise_time
     assert_equal "1901", Astronomy.new("72401").sunset
+  end
+
+  def test_weather_alerts
+    assert_equal  "Flash Flood Warning", Alerts.new("85701").flash_flood
+  end
+
+  def test_list_of_current_hurricanes
+    assert_equal ""
   end
 end

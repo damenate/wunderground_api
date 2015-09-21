@@ -91,4 +91,13 @@ class Forecast
     def day_ten_forecast
       @response["forecast"]["txt_forecast"]["forecastday"][18]["fcttext"]
     end
+
+    # def ten_day
+    #   x = 0
+    #   until x == 20
+    #     @response["forecast"]["txt_forecast"]["forecastday"][18]["title"]+":"
+    #     @response["forecast"]["txt_forecast"]["forecastday"][18]["fcttext"]
+    #     x += 2
+    #   end
+    # end
 end

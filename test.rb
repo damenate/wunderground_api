@@ -2,6 +2,7 @@ require 'minitest/autorun'
 require 'minitest/pride'
 require './conditions'
 require './forecast'
+require './astronomy'
 require 'json'
 
 
@@ -15,6 +16,13 @@ end
 class Forecast
   private def get_response
     file = File.read('10day72401.json')
+    data_hash = JSON.parse(file)
+  end
+end
+
+class Astronomy
+  private def get_response
+    file = File.read('72401sun.json')
     data_hash = JSON.parse(file)
   end
 end
@@ -115,5 +123,9 @@ class ConditionsTest < Minitest::Test
 
   def test_ninth_day_forcast_for_location
     assert_equal "Mostly cloudy early with showers developing later in the day. High 81F. Winds ENE at 5 to 10 mph. Chance of rain 50%.", Forecast.new("72401").day_ten_forecast
+  end
+
+  def test_sunrise_time
+    assert_equal "649", Astronomy.new("72401").sunrise
   end
 end

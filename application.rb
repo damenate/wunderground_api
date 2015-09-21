@@ -1,4 +1,14 @@
+require './conditions'
+require './forecast'
+require 'json'
+
 
 puts "Enter a zip code:"
-api = Conditions.new(gets.chomp)
-puts api.current_conditions
+zip = gets.chomp
+api = Conditions.new(zip)
+puts api.get_response
+
+
+puts "Enter your zip for your 10-day forecast:"
+api2 = Forecast.new(zip)
+puts api2.

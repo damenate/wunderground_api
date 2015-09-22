@@ -189,8 +189,29 @@ class ConditionsTest < Minitest::Test
     assert_equal -111.7, Hurricane.new("Twentyone").longitude3
   end
 
+  def test_fourth_hurricane_wind_speed
+    assert_equal 40, Hurricane.new("Malia").wind_speed4
+  end
 
+  def test_latitude_of_fourth_hurricane
+    assert_equal 27.0, Hurricane.new("Malia").latitude4
+  end
 
+  def test_longitude_of_fourth_hurricane
+    assert_equal -171.3, Hurricane.new("Malia").longitude4
+  end
+
+  def test_fifth_hurricane_wind_speed
+    assert_equal 30, Hurricane.new("96C").wind_speed5
+  end
+
+  def test_latitude_of_fifth_hurricane
+    assert_equal 9.9, Hurricane.new("96C").latitude5
+  end
+
+  def test_longitude_of_fifth_hurricane
+    assert_equal -142.6, Hurricane.new("96C").longitude5
+  end
 
 
 end

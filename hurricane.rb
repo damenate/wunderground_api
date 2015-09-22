@@ -50,4 +50,28 @@ class Hurricane
   def longitude3
     @response["currenthurricane"][2]["Current"]["lon"]
   end
+
+  def wind_speed4
+    @response["currenthurricane"][3]["Current"]["WindSpeed"]["Mph"]
+  end
+
+  def latitude4
+    @response["currenthurricane"][3]["Current"]["lat"]
+  end
+
+  def longitude4
+    @response["currenthurricane"][3]["Current"]["lon"]
+  end
+
+  def wind_speed5
+    @response["currenthurricane"][4]["Current"]["WindSpeed"]["Mph"]
+  end
+
+  def latitude5
+    @response["currenthurricane"][4]["Current"]["lat"]
+  end
+
+  def longitude5
+    @response["currenthurricane"][4]["Current"]["lon"]
+  end
 end

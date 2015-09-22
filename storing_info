@@ -8,32 +8,30 @@
 "wuiurl":"http://www.wunderground.com/hurricane/eastern-pacific/2015/Remnants-of-Sixteen-E"
 
 #4
-{
   "stormInfo": {
-  "stormName":"96C",
-  "stormName_Nice":"Invest 96C",
-  "stormNumber":"cp201596",
-  "requesturl":"/hurricane/central-pacific/2015/Invest-96C",
-  "wuiurl":"http://www.wunderground.com/hurricane/central-pacific/2015/Invest-96C"
+  "stormName":"Malia",
+  "stormName_Nice":"Tropical Storm Malia",
+  "stormNumber":"cp201505",
+  "requesturl":"/hurricane/central-pacific/2015/Tropical-Storm-Malia",
+  "wuiurl":"http://www.wunderground.com/hurricane/central-pacific/2015/Tropical-Storm-Malia"
   },
   "Current": {
-  "lat":9.9,
-  "lon":-142.6,
-  "SaffirSimpsonCategory":-4,
-  "Category":"Invest",
+  "lat":27.0,
+  "lon":-171.3,
+  "SaffirSimpsonCategory":0,
+  "Category":"Tropical Storm",
   "Time": {
-  "hour": "14","hour_padded": "14","year": "2015","mon": "9","mon_padded": "09","mon_abbrev": "Sep","mday": "21","mday_padded": "21","yday": "263","isdst": "1","epoch": "1442858400","pretty": "2:00 PM EDT on September 21, 2015","civil": "2:00 PM","month_name": "September","month_name_abbrev": "Sep","weekday_name": "Monday","weekday_name_night": "Monday Night","weekday_name_abbrev": "Mon","weekday_name_unlang": "Monday","weekday_name_night_unlang": "Monday Night","ampm": "PM"
+  "hour": "17","hour_padded": "17","year": "2015","mon": "9","mon_padded": "09","mon_abbrev": "Sep","mday": "21","mday_padded": "21","yday": "263","isdst": "1","epoch": "1442869200","pretty": "5:00 PM EDT on September 21, 2015","civil": "5:00 PM","month_name": "September","month_name_abbrev": "Sep","weekday_name": "Monday","weekday_name_night": "Monday Night","weekday_name_abbrev": "Mon","weekday_name_unlang": "Monday","weekday_name_night_unlang": "Monday Night","ampm": "PM"
   },
   "TimeGMT": {
-  "hour": "18","hour_padded": "18","year": "2015","mon": "9","mon_padded": "09","mon_abbrev": "Sep","mday": "21","mday_padded": "21","yday": "263","epoch": "1442858400","pretty": "6:00 PM GMT on September 21, 2015","civil": "6:00 PM","month_name": "September","month_name_abbrev": "Sep","weekday_name": "Monday","weekday_name_night": "Monday Night","weekday_name_abbrev": "Mon","weekday_name_unlang": "Monday","weekday_name_night_unlang": "Monday Night","ampm": "PM"
+  "hour": "21","hour_padded": "21","year": "2015","mon": "9","mon_padded": "09","mon_abbrev": "Sep","mday": "21","mday_padded": "21","yday": "263","epoch": "1442869200","pretty": "9:00 PM GMT on September 21, 2015","civil": "9:00 PM","month_name": "September","month_name_abbrev": "Sep","weekday_name": "Monday","weekday_name_night": "Monday Night","weekday_name_abbrev": "Mon","weekday_name_unlang": "Monday","weekday_name_night_unlang": "Monday Night","ampm": "PM"
   },
   "WindSpeed":{
-  "Kts":25,
-  "Mph":30,
-  "Kph":45
+  "Kts":35,
+  "Mph":40,
+  "Kph":65
   },
   "WindGust":{
-
 #5
   "stormInfo": {
   "stormName":"96C",

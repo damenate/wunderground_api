@@ -36,7 +36,7 @@ class Alerts
   end
 end
 
-class Hurrican
+class Hurricane
   private def get_response
     file = File.read('hurricane.json')
     data_hash = JSON.parse(file)
@@ -153,7 +153,44 @@ class ConditionsTest < Minitest::Test
     assert_equal  "Flash Flood Warning", Alerts.new("85701").flash_flood
   end
 
-  def test_list_of_current_hurricanes
-    assert_equal ""
+  def test_first_hurricane_wind_speed
+    assert_equal 50, Hurricane.new("Ida").wind_speed
   end
+
+  def test_latitude_of_first_hurricane
+    assert_equal 21.2, Hurricane.new("Ida").latitude
+  end
+
+  def test_longitude_of_first_hurricane
+    assert_equal -48.8, Hurricane.new("Ida").longitude
+  end
+
+  def test_second_hurricane_wind_speed
+    assert_equal 30, Hurricane.new("Twentyone").wind_speed2
+  end
+
+  def test_latitude_of_second_hurricane
+    assert_equal 15.6, Hurricane.new("Twentyone").latitude2
+  end
+
+  def test_longitude_of_second_hurricane
+    assert_equal 141.7, Hurricane.new("Twentyone").longitude2
+  end
+
+  def test_third_hurricane_wind_speed
+    assert_equal 30, Hurricane.new("Sixteen-E").wind_speed3
+  end
+
+  def test_latitude_of_third_hurricane
+    assert_equal 30.7, Hurricane.new("Twentyone").latitude3
+  end
+
+  def test_longitude_of_third_hurricane
+    assert_equal -111.7, Hurricane.new("Twentyone").longitude3
+  end
+
+
+
+
+
 end

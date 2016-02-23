@@ -10,7 +10,7 @@ class Conditions
   private def get_response
     key = ENV['WUNDERGROUND_KEY']
     HTTParty.get("http://api.wunderground.com/api/#{key}/conditions/q/AR/#{@zip}.json")
-    end
+  end
 
   def current_temp
     @response["current_observation"]["temp_f"].to_f
@@ -28,3 +28,4 @@ class Conditions
     @response["current_observation"]["display_location"]["elevation"].to_s
   end
 end
+                          

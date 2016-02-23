@@ -15,12 +15,12 @@ class Astronomy
     def sunrise
         hour = @response["moon_phase"]["sunrise"]["hour"]
         min = @response["moon_phase"]["sunrise"]["minute"]
-        hour + min
+        "#{hour}:#{min}"
     end
 
     def sunset
       hour = @response["moon_phase"]["sunset"]["hour"]
       min = @response["moon_phase"]["sunset"]["minute"]
-      hour + min
+      "#{hour}:#{min}"
     end
   end
